@@ -1,0 +1,15 @@
+artifact_uri: file:///private/var/root/MLflow/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/mlflow_test/mlruns/0/8fb170bd89e44b41b97930e2f2926b15/artifacts
+end_time: 1660702383603
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 8fb170bd89e44b41b97930e2f2926b15
+run_uuid: 8fb170bd89e44b41b97930e2f2926b15
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1660702379972
+status: 4
+tags: []
+user_id: root

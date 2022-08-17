@@ -20,7 +20,8 @@ def go(config: DictConfig):
         # This was passed on the command line as a comma-separated list of steps
         steps_to_execute = config["main"]["execute_steps"].split(",")
     else:
-        assert isinstance(config["main"]["execute_steps"], list)
+        
+        assert isinstance(list(config["main"]["execute_steps"]), list)
         steps_to_execute = config["main"]["execute_steps"]
 
     # Download step
@@ -109,7 +110,7 @@ def go(config: DictConfig):
 
         ## YOUR CODE HERE: call the evaluate step
         _ = mlflow.run(
-            os.path.join(root_path, evaluate),
+            os.path.join(root_path, 'evaluate'),
             'main',
             parameters={
                 'model_export': f"{config['random_forest_pipeline']['export_artifact']}:latest",

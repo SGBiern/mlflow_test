@@ -1,0 +1,31 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.8.13",
+    "heartbeatAt": "2022-08-17T05:44:16.286669",
+    "startedAt": "2022-08-17T05:44:15.234917",
+    "docker": null,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "--file_url",
+        "https://github.com/udacity/nd0821-c2-build-model-workflow-exercises/blob/master/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/genres_mod.parquet?raw=true",
+        "--artifact_name",
+        "raw_data.parquet",
+        "--artifact_type",
+        "raw_data",
+        "--artifact_description",
+        "Data as downloaded"
+    ],
+    "state": "running",
+    "program": "download_data.py",
+    "codePath": "download/download_data.py",
+    "git": {
+        "remote": "https://github.com/SGBiern/mlflow_test.git",
+        "commit": "8000575560c744538cef29057d29e108dd42f0c5"
+    },
+    "email": "sanggyu.biern@gmail.com",
+    "root": "/private/var/root/MLflow/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/mlflow_test",
+    "host": "Nerv.local",
+    "username": "root",
+    "executable": "/var/root/anaconda3/envs/mlflow-dcab57294d4c8d8af89cb670ca7f21a98adaaf45/bin/python"
+}
